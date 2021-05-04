@@ -1,10 +1,10 @@
 body{
     margin:0;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 16px;
 }
 .header{
-    padding:25px;
+    padding:0px 20px;
     color:black;
     display:flex;
     justify-content: space-between;
@@ -15,6 +15,7 @@ body{
     text-decoration:none;
 }
 .nav{
+    font-size: 15px;
     list-style: none;
     margin:0;
     padding:0;
@@ -26,38 +27,51 @@ body{
     margin-left:40px;
 }
 .nav a:hover{
-    color:aliceblue;
+    color:blue;
 }
+
 .heading{
     color:black;
     text-align: center;
-    padding:10px;
+    padding: 10px 0;
 }
 .feature-list {
     max-width: 600px;
     margin: 0 auto;
-    display:grid ;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap:45px;
-    grid-row-gap:45px;
+    display:flex ;
+    justify-content:center;
+    flex-wrap: wrap;
+    
 }   
+.features{
+    height: 150px;
+    width: 150px;
+    border: 1px solid #f5f5f5;
+    padding: 10px;
+    box-shadow: 5px 5px #f5f5f5;
+    margin: 45px 45px 45px 45px;
+}
 .features{
     border-style: solid;
     border-width: thin;
-    padding: 10px;
     background-color:#fff;
     text-align: center;
+    align-content: center;
+
 }
 .down-logo{
-    padding:0 20px;
+    padding:0 40px;
 }
 .footer{
     display:flex;
     justify-content:space-between;
-    padding:20px;
-    
-
+    padding:0 40px;
 }
 .footer{
-    font-size: 10px;
+    color:#696969;
+    line-height: 1.6;
+    font-size: 12px;
+}
+.socialmedia img{
+       padding: 0 10px;
 }
