@@ -16,22 +16,24 @@ body{
     align-items:center;
     
 }
+.container{
+    margin:0 auto;
+    width: 1000px;
+   
+   }
 .logoniv h5{
     margin-left: 40px;
     margin-right: 60px;
     color: #6a6866;
 } 
 .header{
-    padding:0px 20px;
+   
     color:#aaa ;
     display:flex;
     justify-content: space-between;
     align-items:center;
 }
-.container{
- margin:0 auto;
- width: 1100px;
-}
+
 .header h5{
     font-weight: lighter;
 }
@@ -63,7 +65,7 @@ body{
 }
 
 .heading{
-    color: 3f3d3b;
+    color: #3f3d3b;
     text-align: center;
     margin-bottom: 80px;
 }
@@ -72,6 +74,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .box{
     border-width: thin;
     border:1px solid #ececec;
@@ -84,8 +87,9 @@ body{
     margin-bottom: 40px;
     color: #3f3d3b;
     font-weight:lighter;
-
+    flex-wrap: wrap;
 }
+
 .box img{
    width: 40%;
     display: block;
@@ -93,6 +97,7 @@ body{
     margin-right: auto;
     margin: auto;
   }
+
 .footer-logo{
     margin-top: 80px;
     margin-right: 200px;
@@ -121,4 +126,34 @@ body{
       }
 .socialmedia img{
     opacity: 0.3;
+}
+@media (max-width: 756px){
+    
+    .nav{
+        display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: left;
+        margin-right: 400px;
+    
+    }
+      .heading{
+          text-align: left;
+      }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer{
+        display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: left;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+    }
 }
