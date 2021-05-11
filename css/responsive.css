@@ -1,5 +1,5 @@
 
-@media  (min-width: 768px) {/*laptop*/
+@media  (min-width: 768px) {/*tab*/
     body{
         margin:0;
         font-family: sans-serif;
@@ -49,8 +49,8 @@
         padding:0;
         display:flex;
         justify-content:flex-end;
-        font-weight:bold;
-        font-size: 16px;
+        font-weight:600;
+        font-size: 17px;
     
     }
     .nav li{
@@ -126,7 +126,7 @@
     .footer{
         color: 959392;
         line-height: 1.2;
-        font-size: 13px;
+        font-size: 15px;
         margin: 0;
     }
     .reachus img{
@@ -134,13 +134,13 @@
         height: 100px
     }
     .footer h5{
-        font-size:14px;
+        font-size:16px;
         color: #6a6866;
         margin-bottom: 40px;
     }
     .socialmedia img{
           padding-left: 10px;
-            height: 14px;
+            height: 16px;
             opacity: 0.3;
             
           }
